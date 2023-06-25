@@ -1,0 +1,55 @@
+{% extends 'base.html' %} 
+{% block content %} 
+<!-- New Home -->
+  <section class="banner_section">
+                <video
+                  autoplay=""
+                  muted=""
+                  defaultmuted=""
+                  playsinline=""
+                  loop=""
+                  id="myVideo"
+                >
+             
+               {% load static %}
+                  <source src="{% static 'Pexels Videos 2306150.mp4' %}" type="video/mp4" />
+                </video>
+                <div class="container">
+                  <div class="row">
+                    <div class="banner-content">
+                      <h3>Hare Krishna Musical Store</h3>
+                      <h1>Best Musical instruments</h1>
+                      <h2>ESTD. 1885</h5>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+               
+
+
+<!-- End New Home -->
+<hr />
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="text-center display-5 one-edge-shadow">Hare Krishna Music</h1>
+  </div>
+</div>
+
+<section
+  class="bg-cover bg-fixed shadow-inner"
+  id="volunteer"
+  {% load static %}
+  style="background: url({% static 'pexels-nothing-ahead-3423985.jpg' %})"
+>
+  <div class="primary-overlay py-5">
+    <div class="overlay-content index-forward py-5">
+      <div class="container py-5 text-white text-center">
+        <p align="center"></p>
+        <h6 class=""></h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

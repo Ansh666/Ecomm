@@ -1,0 +1,14 @@
+:root {
+  font-family: "Open Sans";
+}
+navbar {
+  background-color: black;
+  font-size: larger;
+}
+one-edge-shadow {
+  box-shadow: 0 9px 8px -5px rgb(87, 83, 83);
+}
+display-8 {
+  font-weight: 200;
+  font-size: 30px;
+}
